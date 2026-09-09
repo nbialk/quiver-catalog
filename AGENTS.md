@@ -24,7 +24,7 @@ The [catalog](https://github.com/nbialk/quiver-catalog) is for discovery.
 Each installed entry records its own direct source in `quiver.lock`; updates
 follow that source rather than a vendored copy in the catalog. External skills
 are listed as live GitHub pointers in `catalog.json`. Catalog-owned skills are
-discovered from `skills/`, including the explicitly custom `posthog-custom`.
+discovered from `skills/`.
 
 Branch and tag references track their upstream sources. Resolved commits and
 source digests belong in each consuming repository's lockfile, not the catalog
