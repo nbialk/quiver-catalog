@@ -6,7 +6,13 @@
     "rtk": {
       "provider": "opencode",
       "sourcePath": "plugins/opencode/rtk.ts",
-      "requires": ["rtk"]
+      "requires": [
+        {
+          "command": "rtk",
+          "versionArgs": ["--version"],
+          "latest": { "github": "rtk-ai/rtk" }
+        }
+      ]
     }
   },
   "mcpServers": {
