@@ -36,6 +36,26 @@
       "group": "integrations",
       "description": "Interact with Langfuse and access its documentation: tracing, monitoring, creating datasets, running experiments, and evaluating AI applications. Use when needing to (1) query or modify Langfuse data, (2) look up Langfuse documentation, concepts, integration guides, a feature or SDK usage, or (3) do any AI engineering task (AI observability, prompt engineering/management, evaluation and evaluator management, experimentation, dataset management, evaluation-driven CI/CD, feedback collection). Invoke it for tasks in this scope even when Langfuse is not configured or explicitly mentioned."
     },
+    "posthog-nextjs": {
+      "source": "github:PostHog/skills/skills/posthog/integration/skills/nextjs-app-router#main",
+      "group": "integrations",
+      "description": "Integrate PostHog analytics into Next.js App Router applications. Covers SDK setup, user identification, event capture, and framework-specific integration patterns."
+    },
+    "posthog-error-tracking": {
+      "source": "github:PostHog/skills/skills/posthog/error-tracking/skills/nextjs#main",
+      "group": "integrations",
+      "description": "Set up PostHog error tracking in Next.js applications, including exception capture and source maps."
+    },
+    "posthog-feature-flags": {
+      "source": "github:PostHog/skills/skills/posthog/feature-flags/skills/nextjs#main",
+      "group": "integrations",
+      "description": "Integrate PostHog feature flags into Next.js applications, including client-side and server-side flag evaluation."
+    },
+    "posthog-llm-analytics": {
+      "source": "github:PostHog/skills/skills/posthog/llm-analytics/skills/setup#main",
+      "group": "integrations",
+      "description": "Set up PostHog LLM analytics to capture and analyze AI generations, traces, token usage, and costs."
+    },
     "prisma-cli": {
       "source": "github:prisma/skills/prisma-cli#main",
       "group": "data",
